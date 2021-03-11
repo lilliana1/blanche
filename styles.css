@@ -1,0 +1,48 @@
+* {
+    background-color: #fff4e4;
+    line-height: 10px;
+}
+#blanche {
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    padding-left: 15px; 
+}
+#plating {
+    padding-top: 50px;
+    /* padding: 50px; */
+    width: 600px;
+    height: 410px;
+    display: block;
+}
+
+.fa-instagram {
+    align-content: center;
+    color: #2f2e2e;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+#info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #2f2e2e;
+    text-align: center;
+}
+@media screen and (max-width: 722px) {
+    #plating {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
